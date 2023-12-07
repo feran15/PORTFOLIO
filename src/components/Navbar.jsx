@@ -34,7 +34,7 @@ export const Navbar = () => {
       <ul
         className={`${
           nav ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-full'
-        } transition opacity-90 transform duration-700 absolute top-0 left-0 w-full h-screen bg-[#4682B4] flex flex-col items-center justify-center space-y-10 text-xl text-white`}
+        } transition opacity-90 transform duration-700 absolute top-0 left-0 w-full h-screen bg-[#4682B4] flex flex-col items-center justify-center space-y-10 text-lg sm:text-xl text-white`}
       >
         <li>Home</li>
         <li>Works</li>
