@@ -4,6 +4,7 @@ import { Navbar } from "./components/Navbar";
 import { Skills } from "./components/Skills";
 import { SocialsSection } from "./components/SocialsSection";
 import { Works } from "./components/Works";
+import { About } from "./components/About";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <SocialsSection />
         <Skills />
         <Works />
+        <About />
       </main>
     </BrowserRouter>
   );
