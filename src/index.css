@@ -5,10 +5,18 @@
 @tailwind utilities;
 
 .socials-card {
-    @apply py-3 px-4 bg-[#B0E0E6] text-[#333333] flex flex-col items-center rounded-md cursor-pointer space-y-1 hover:scale-90 ease-linear duration-500 border-b border-t border-[#333333];
+    @apply py-3 px-4 bg-[#B0E0E6] text-[#333333] flex flex-col items-center rounded-md cursor-pointer space-y-1 hover:scale-90 duration-500 border-b border-t border-[#333333];
     /* @apply py-3 px-4 bg-[#F5F5FF] text-[#333333] flex flex-col items-center rounded-md cursor-pointer space-y-1 hover:scale-90 ease-linear duration-500 border-b border-t border-[#333333]; */
 }
 
 .socials-icon {
     @apply text-xl;
+}
+
+.skills-container {
+    @apply bg-blue-100 rounded-md flex flex-col items-center p-4 shadow-md shadow-gray-300 hover:scale-110 duration-700 cursor-pointer h-[136px];
+}
+
+.skills-text {
+    @apply text-gray-800 mt-2 font-semibold;
 }
