@@ -5,7 +5,7 @@ export const About = () => {
   return (
     <section className="border border-red-500 mt-16">
       <div>
-        <h1 className="inline border-b-2 border-gray-800 font-bold text-2xl mt-3 ml-5">About</h1>
+        <h1 className="inline border-b-2 border-gray-800 font-bold text-xl mt-3 ml-5">About</h1>
         <div className="flex items-center justify-around py-10">
           <p className="w-[50%]">
             As a full-stack developer, I seamlessly connect front-end and

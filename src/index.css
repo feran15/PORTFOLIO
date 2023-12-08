@@ -28,3 +28,7 @@
 .works-pill {
     @apply bg-blue-200 text-blue-800 border border-blue-400 px-2 py-1 rounded;
 }
+
+.form-input {
+    @apply bg-white border border-blue-200 rounded p-2 outline-none;
+}
