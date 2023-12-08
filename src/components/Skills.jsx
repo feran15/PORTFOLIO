@@ -16,7 +16,7 @@ export const Skills = () => {
         <h1 className="font-bold text-2xl inline border-b-2 border-gray-800">
           Skills
         </h1>
-        <h2 className="text-lg mt-2">Technologies I currently work with:</h2>
+        <p className="text-lg mt-2">Technologies I currently work with:</p>
       </div>
       <div className="grid grid-cols-3 gap-y-6 gap-x-10 py-8 mx-16">
         <div className="skills-container">
