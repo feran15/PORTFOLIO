@@ -7,6 +7,7 @@ import { Works } from "./components/Works";
 import { About } from "./components/About";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
+import { ScrollToTop } from "./components/ScrollToTop";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <About />
         <Contact />
         <Footer />
+        <ScrollToTop />
       </main>
     </BrowserRouter>
   );

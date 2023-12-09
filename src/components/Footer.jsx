@@ -7,7 +7,7 @@ import { SiGithub } from "react-icons/si";
 
 export const Footer = () => {
   return (
-    <footer className="border border-green-400 mt-20">
+    <footer className="border border-green-400 mt-24">
       <div className="flex flex-col items-center justify-center py-4 space-y-4">
         <span className="flex space-x-5">
           <SiGithub className="socials-icon" />
