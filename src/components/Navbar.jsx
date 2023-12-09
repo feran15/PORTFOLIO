@@ -13,7 +13,7 @@ export const Navbar = () => {
     <nav className="flex items-center justify-around h-20 w-full">
       {/* Desktop Section */}
       <div>
-        <img src={Logo} alt="logo" className="h-11 object-contain" />
+        <img src={Logo} alt="logo" className="h-10 object-contain" />
       </div>
       <ul className="hidden md:flex space-x-8 font-semibold">
         <li>Home</li>

@@ -1,11 +1,14 @@
 import React from "react";
 import { ImDownload2 } from "react-icons/im";
+import { motion } from "framer-motion";
 
 export const About = () => {
   return (
     <section className="mt-16">
       <div>
-        <h1 className="inline border-b-2 border-gray-800 font-bold text-xl mt-3 ml-5">About</h1>
+        <h1 className="inline border-b-2 border-gray-800 font-bold text-xl mt-3 ml-5">
+          About
+        </h1>
         <div className="flex items-center justify-around py-10">
           <p className="w-[50%]">
             As a full-stack developer, I seamlessly connect front-end and
@@ -16,10 +19,12 @@ export const About = () => {
             for unique project needs. I am open to connecting with people,
             working, and collaborating on exciting projects.
           </p>
-          <span className="flex items-center space-x-2 bg-[#3366CC] text-white p-2 h-10 rounded shadow-md">
-            <p>View Resume </p>
-            <ImDownload2 className="animate-bounce" />
-          </span>
+          <motion.button whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
+            <span className="flex items-center space-x-2 bg-[#3366CC] text-white p-2 h-10 rounded shadow-md">
+              <p>View Resume </p>
+              <ImDownload2 className="animate-bounce" />
+            </span>
+          </motion.button>
         </div>
       </div>
     </section>
