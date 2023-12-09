@@ -11,7 +11,7 @@ import Tailwind from "../assets/tailwind.png";
 
 export const Skills = () => {
   return (
-    <section className="border border-red-600 mt-24">
+    <section className="mt-24">
       <div className="mt-3 ml-5">
         <h1 className="font-bold text-xl inline border-b-2 border-gray-800">
           Skills

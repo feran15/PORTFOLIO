@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Contact = () => {
   return (
-    <section className='mt-16 border border-red-600'>
+    <section className='mt-16'>
         <div>
             <h1 className='font-bold text-xl inline border-b-2 border-gray-800 ml-5'>Contact me</h1>
             <p className='ml-5 mt-2'>Send me a message💬</p>

@@ -7,7 +7,7 @@ import { BsWhatsapp } from "react-icons/bs";
 
 export const SocialsSection = () => {
   return (
-    <section className="border border-red-400 mt-20">
+    <section className="mt-20">
       <h2 className="text-lg ml-5 font-semibold my-2">Connect with me on:</h2>
       <div className="flex justify-center space-x-5">
         <div className="socials-card">

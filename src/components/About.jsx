@@ -3,7 +3,7 @@ import { ImDownload2 } from "react-icons/im";
 
 export const About = () => {
   return (
-    <section className="border border-red-500 mt-16">
+    <section className="mt-16">
       <div>
         <h1 className="inline border-b-2 border-gray-800 font-bold text-xl mt-3 ml-5">About</h1>
         <div className="flex items-center justify-around py-10">
