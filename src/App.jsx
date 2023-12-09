@@ -6,6 +6,7 @@ import { SocialsSection } from "./components/SocialsSection";
 import { Works } from "./components/Works";
 import { About } from "./components/About";
 import { Contact } from "./components/Contact";
+import { Footer } from "./components/Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Works />
         <About />
         <Contact />
+        <Footer />
       </main>
     </BrowserRouter>
   );
