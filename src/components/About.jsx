@@ -10,7 +10,7 @@ export const About = () => {
   });
 
   return (
-    <section className="mt-16">
+    <section className="pt-16" id="about">
       <div>
         <h1 className="inline border-b-2 border-gray-800 font-bold text-xl mt-3 ml-5" data-aos="fade-up">
           About

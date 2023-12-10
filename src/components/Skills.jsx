@@ -17,7 +17,7 @@ export const Skills = () => {
   }, []);
 
   return (
-    <section className="mt-24" data-aos="fade-up">
+    <section className="pt-24" data-aos="fade-up" id="skills">
       <div className="mt-3 ml-5">
         <h1 className="font-bold text-xl inline border-b-2 border-gray-800">
           Skills

@@ -7,7 +7,7 @@ export const Contact = () => {
   });
 
   return (
-    <section className='mt-16'>
+    <section className='pt-16' id='contact'>
         <div>
             <h1 className='font-bold text-xl inline border-b-2 border-gray-800 ml-5' data-aos='fade-up'>Contact me</h1>
             <p className='ml-5 mt-2' data-aos='fade-up'>Send me a message💬</p>
