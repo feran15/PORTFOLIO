@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Foodspace from "../assets/foodspace.jpeg";
 import Fan from "../assets/fan.png";
 import Blogapp from "../assets/blogapp.png";
@@ -7,19 +7,26 @@ import Weatherapp from "../assets/weatherapp.png";
 import Musicapp from "../assets/musicapp.png";
 import { FaGithub } from "react-icons/fa6";
 import { FaLink } from "react-icons/fa6";
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 
 export const Works = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  });
+
   return (
     <section className="mt-24">
       <div>
         <div className="flex flex-col justify-center items-center">
-          <h1 className="border-2 border-gray-800 py-2 px-5 font-bold text-xl">
+          <h1 className="border-2 border-gray-800 py-2 px-5 font-bold text-xl"  data-aos="fade-up">
             Works
           </h1>
-          <p className="mt-2 text-lg">These are some of my works👇🏻</p>
+          <p className="mt-2 text-lg"  data-aos="fade-up">These are some of my works👇🏻</p>
         </div>
         <div className="grid grid-cols-3 gap-x-14 gap-y-10 mx-16 py-10">
-          <div className="works-container">
+          <div className="works-container"  data-aos="fade-up">
             <img
               src={Foodspace}
               alt="foodspace-img"
@@ -42,7 +49,7 @@ export const Works = () => {
               <FaLink className="text-lg" />
             </span>
           </div>
-          <div className="works-container">
+          <div className="works-container" data-aos="fade-down">
             <img
               src={Musicapp}
               alt="musicapp-img"
@@ -66,7 +73,7 @@ export const Works = () => {
               <FaLink className="text-lg" />
             </span>
           </div>
-          <div className="works-container">
+          <div className="works-container" data-aos="fade-up">
             <img
               src={Fan}
               alt="fan-img"
@@ -86,7 +93,7 @@ export const Works = () => {
               <FaLink className="text-lg" />
             </span>
           </div>
-          <div className="works-container">
+          <div className="works-container" data-aos="fade-down">
             <img
               src={Blogapp}
               alt="blogapp-img"
@@ -109,7 +116,7 @@ export const Works = () => {
               <FaLink className="text-lg" />
             </span>
           </div>
-          <div className="works-container">
+          <div className="works-container" data-aos="fade-up">
             <img
               src={Quizapp}
               alt="quizapp-img"
@@ -130,7 +137,7 @@ export const Works = () => {
               <FaLink className="text-lg" />
             </span>
           </div>
-          <div className="works-container">
+          <div className="works-container" data-aos="fade-down">
             <img
               src={Weatherapp}
               alt="weatherapp-img"
