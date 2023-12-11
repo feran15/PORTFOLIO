@@ -19,7 +19,7 @@ export const Skills = () => {
   return (
     <section className="pt-24" data-aos="fade-up" id="skills">
       <div className="mt-3 ml-20">
-        <h1 className="font-bold text-lg md:text-xl inline border-b-2 border-gray-800">
+        <h1 className="font-bold text-lg md:text-xl inline border-b-2 border-[C8CACD]">
           Skills
         </h1>
         <p className="text-base md:text-lg mt-2">Technologies I currently work with:</p>

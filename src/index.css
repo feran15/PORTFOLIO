@@ -13,11 +13,11 @@
 }
 
 .skills-container {
-    @apply bg-blue-100 rounded-md flex flex-col justify-center items-center p-4 shadow-md shadow-gray-100 cursor-pointer h-[136px];
+    @apply bg-blue-100 rounded-md flex flex-col justify-center items-center p-4 shadow-md shadow-gray-200 cursor-pointer h-[136px];
 }
 
 .skills-text {
-    @apply text-gray-800 mt-2 font-semibold text-sm md:text-base;
+    @apply text-[#0C0C0C] mt-2 font-semibold text-sm md:text-base;
 }
 
 .works-container {
