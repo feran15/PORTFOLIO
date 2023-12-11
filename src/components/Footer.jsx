@@ -10,11 +10,18 @@ export const Footer = () => {
     <footer className="mt-24">
       <div className="flex flex-col items-center justify-center py-4 space-y-4">
         <span className="flex space-x-5">
-          <SiGithub className="socials-icon" />
-          <FaXTwitter className="socials-icon" />
-          <RiContactsLine className="socials-icon" />
-          <MdOutlineMailOutline className="socials-icon" />
-          <BsWhatsapp className="socials-icon" />
+          <a href="https://github.com/favour5678" target="_blank">
+            <SiGithub className="socials-icon" />
+          </a>
+          <a href="href='https://x.com/favour_ayomikun?t=UFbQ8TjcitAB-1EcnIzN5g&s=09'">
+            <FaXTwitter className="socials-icon" />
+          </a>
+          <a href="href='mailto:oshoarofavour@gmail.com'" target="_blank">
+            <MdOutlineMailOutline className="socials-icon" />
+          </a>
+          <a href="https://wa.me/2348080994170" target="_blank">
+            <BsWhatsapp className="socials-icon" />
+          </a>
         </span>
         <div className="font-semibold">&copy; F.A 2023</div>
       </div>

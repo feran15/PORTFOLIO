@@ -1,12 +1,10 @@
 import React, { useEffect } from "react";
 import { SiGithub } from "react-icons/si";
 import { FaXTwitter } from "react-icons/fa6";
-import { RiContactsLine } from "react-icons/ri";
 import { MdOutlineMailOutline } from "react-icons/md";
 import { BsWhatsapp } from "react-icons/bs";
 import "aos/dist/aos.css";
 import Aos from "aos";
-
 
 export const SocialsSection = () => {
   useEffect(() => {
@@ -17,26 +15,22 @@ export const SocialsSection = () => {
     <section className="mt-20" data-aos='fade-up'>
       <h2 className="text-lg ml-5 font-semibold my-2">Connect with me on:</h2>
       <div className="flex justify-center space-x-5">
-        <div className="socials-card" data-aos="fade-right">
+        <a href='https://github.com/favour5678' target="_blank" className="socials-card" data-aos="fade-right">
           <SiGithub className="socials-icon" />
           <p> GitHub</p>
-        </div>
-        <div className="socials-card" data-aos="fade-right">
+        </a>
+        <a href='https://x.com/favour_ayomikun?t=UFbQ8TjcitAB-1EcnIzN5g&s=09' target="_blank" className="socials-card" data-aos="fade-right">
           <FaXTwitter className="socials-icon"/>
           <p>Twitter</p>
-        </div>
-        <div className="socials-card" >
-          <RiContactsLine className="socials-icon"/>
-          <p>Contact</p>
-        </div>
-        <div className="socials-card" data-aos="fade-left">
+        </a>
+        <a href='mailto:oshoarofavour@gmail.com' target="_blank" className="socials-card" data-aos="zoom-in">
           <MdOutlineMailOutline className="socials-icon"/>
           <p>Email</p>
-        </div>
-        <div className="socials-card" data-aos="fade-left">
+        </a>
+        <a href='https://wa.me/2348080994170' target="_blank" className="socials-card" data-aos="zoom-in">
           <BsWhatsapp className="socials-icon"/>
           <p>Whatsapp</p>
-        </div>
+        </a>
       </div>
     </section>
   );

@@ -9,7 +9,7 @@ import { FaGithub } from "react-icons/fa6";
 import { FaLink } from "react-icons/fa6";
 import Aos from "aos";
 import "aos/dist/aos.css";
-
+import { Link } from "react-router-dom";
 
 export const Works = () => {
   useEffect(() => {
@@ -20,13 +20,18 @@ export const Works = () => {
     <section className="pt-24" id="works">
       <div>
         <div className="flex flex-col justify-center items-center">
-          <h1 className="border-2 border-gray-800 py-2 px-5 font-bold text-xl"  data-aos="fade-up">
+          <h1
+            className="border-2 border-gray-800 py-2 px-5 font-bold text-xl"
+            data-aos="fade-up"
+          >
             Works
           </h1>
-          <p className="mt-2 text-lg"  data-aos="fade-up">These are some of my works👇🏻</p>
+          <p className="mt-2 text-lg" data-aos="fade-up">
+            These are some of my works👇🏻
+          </p>
         </div>
         <div className="grid grid-cols-3 gap-x-14 gap-y-10 mx-16 py-10">
-          <div className="works-container"  data-aos="fade-up">
+          <div className="works-container" data-aos="fade-up">
             <img
               src={Foodspace}
               alt="foodspace-img"
@@ -45,8 +50,12 @@ export const Works = () => {
               <p className="works-pill">TailwindCSS</p>
             </span>
             <span className="mt-3 mx-2 pt-2 border-t border-gray-800 flex items-center justify-between">
-              <FaGithub className="text-lg" />
-              <FaLink className="text-lg" />
+              <Link to={"https://github.com/favour5678/FoodSpace"}>
+                <FaGithub className="text-lg" />
+              </Link>
+              <Link to={"https://foodspacee.netlify.app/"}>
+                <FaLink className="text-lg" />
+              </Link>
             </span>
           </div>
           <div className="works-container" data-aos="fade-down">
@@ -69,8 +78,12 @@ export const Works = () => {
               <p className="works-pill">Robo Music Api</p>
             </span>
             <span className="mt-3 mx-2 pt-2 border-t border-gray-800 flex items-center justify-between">
-              <FaGithub className="text-lg" />
-              <FaLink className="text-lg" />
+              <Link to={"https://github.com/favour5678/MusicApp"}>
+                <FaGithub className="text-lg" />
+              </Link>
+              <Link to={"https://famusicapp.netlify.app/"}>
+                <FaLink className="text-lg" />
+              </Link>
             </span>
           </div>
           <div className="works-container" data-aos="fade-up">
@@ -89,8 +102,12 @@ export const Works = () => {
               <p className="works-pill">Animation</p>
             </span>
             <span className="mt-3 mx-2 pt-2 border-t border-gray-800 flex items-center justify-between">
-              <FaGithub className="text-lg" />
-              <FaLink className="text-lg" />
+              <Link to={"https://github.com/favour5678/FAN"}>
+                <FaGithub className="text-lg" />
+              </Link>
+              <Link to={"https://favour5678.github.io/FAN/"}>
+                <FaLink className="text-lg" />
+              </Link>
             </span>
           </div>
           <div className="works-container" data-aos="fade-down">
@@ -112,8 +129,12 @@ export const Works = () => {
               <p className="works-pill">Mongo DB</p>
             </span>
             <span className="mt-3 mx-2 pt-2 border-t border-gray-800 flex items-center justify-between">
-              <FaGithub className="text-lg" />
-              <FaLink className="text-lg" />
+              <Link to={"https://github.com/favour5678/BlogApp"}>
+                <FaGithub className="text-lg" />
+              </Link>
+              <Link to={"https://fablog-app.netlify.app/"}>
+                <FaLink className="text-lg" />
+              </Link>
             </span>
           </div>
           <div className="works-container" data-aos="fade-up">
@@ -133,8 +154,12 @@ export const Works = () => {
               <p className="works-pill">TailwindCSS</p>
             </span>
             <span className="mt-3 mx-2 pt-2 border-t border-gray-800 flex items-center justify-between">
-              <FaGithub className="text-lg" />
-              <FaLink className="text-lg" />
+              <Link to={"https://github.com/favour5678/QuizApp"}>
+                <FaGithub className="text-lg" />
+              </Link>
+              <Link to={"https://faquizapp.netlify.app/"}>
+                <FaLink className="text-lg" />
+              </Link>
             </span>
           </div>
           <div className="works-container" data-aos="fade-down">
@@ -154,8 +179,12 @@ export const Works = () => {
               <p className="works-pill">AccuWeather Api</p>
             </span>
             <span className="mt-3 mx-2 pt-2 border-t border-gray-800 flex items-center justify-between">
-              <FaGithub className="text-lg" />
-              <FaLink className="text-lg" />
+              <Link to={"https://github.com/favour5678/WeatherApp"}>
+                <FaGithub className="text-lg" />
+              </Link>
+              <Link to={"https://faweather-app.netlify.app/"}>
+                <FaLink className="text-lg" />
+              </Link>
             </span>
           </div>
         </div>

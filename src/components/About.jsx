@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { ImDownload2 } from "react-icons/im";
 import { motion } from "framer-motion";
 import Aos from "aos";
-import "aos/dist/aos.css";
+import "aos/dist/aos.css";  
 
 export const About = () => {
   useEffect(() => {
@@ -26,10 +26,10 @@ export const About = () => {
             working, and collaborating on exciting projects.
           </p>
           <motion.button whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} data-aos="zoom-in-left">
-            <span className="flex items-center space-x-2 bg-[#3366CC] text-white p-2 h-10 rounded shadow-md">
+            <a href='/My Resume.pdf' download className="flex items-center space-x-2 bg-[#3366CC] text-white p-2 h-10 rounded shadow-md">
               <p>View Resume </p>
               <ImDownload2 className="animate-bounce" />
-            </span>
+            </a>
           </motion.button>
         </div>
       </div>
