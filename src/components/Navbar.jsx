@@ -60,27 +60,27 @@ export const Navbar = () => {
         } transition opacity-90 transform duration-700 absolute top-0 left-0 w-full h-screen bg-[#4682B4] flex flex-col items-center justify-center space-y-10 text-lg sm:text-xl text-white`}
       >
           <li>
-          <Link smooth to="#home">
+          <Link smooth to="#home" className="hover:text-[#819096]">
             Home
           </Link>
         </li>
         <li>
-          <Link smooth to={"#skills"}>
+          <Link smooth to={"#skills"} className="hover:text-[#819096]">
             Skills
           </Link>
         </li>
         <li>
-          <Link smooth to={"#works"}>
+          <Link smooth to={"#works"} className="hover:text-[#819096]">
             Works
           </Link>
         </li>
         <li>
-          <Link smooth to={"#about"}>
+          <Link smooth to={"#about"} className="hover:text-[#819096]">
             About
           </Link>
         </li>
         <li>
-          <Link smooth to={"#contact"}>
+          <Link smooth to={"#contact"} className="hover:text-[#819096]">
             Contact me 🤙
           </Link>
         </li>
