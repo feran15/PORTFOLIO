@@ -9,7 +9,6 @@ import { FaGithub } from "react-icons/fa6";
 import { FaLink } from "react-icons/fa6";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import { Link } from "react-router-dom";
 
 export const Works = () => {
   useEffect(() => {
@@ -52,12 +51,12 @@ export const Works = () => {
               </span>
             </div>
             <span className="mt-3 mx-2 pt-2 border-t border-gray-800 flex items-center justify-between">
-              <Link to={"https://github.com/favour5678/FoodSpace"}>
+              <a href="https://github.com/favour5678/FoodSpace">
                 <FaGithub className="text-lg" />
-              </Link>
-              <Link to={"https://foodspacee.netlify.app/"}>
+              </a>
+              <a href="https://foodspacee.netlify.app/">
                 <FaLink className="text-lg" />
-              </Link>
+              </a>
             </span>
           </div>
           <div className="works-container" data-aos="fade-down">
@@ -82,12 +81,12 @@ export const Works = () => {
               </span>
             </div>
             <span className="mt-3 mx-2 pt-2 border-t border-gray-800 flex items-center justify-between">
-              <Link to={"https://github.com/favour5678/MusicApp"}>
+              <a href="https://github.com/favour5678/MusicApp">
                 <FaGithub className="text-lg" />
-              </Link>
-              <Link to={"https://famusicapp.netlify.app/"}>
+              </a>
+              <a href="https://famusicapp.netlify.app/">
                 <FaLink className="text-lg" />
-              </Link>
+              </a>
             </span>
           </div>
           <div className="works-container" data-aos="fade-up">
@@ -108,12 +107,12 @@ export const Works = () => {
               </span>
             </div>
             <span className="mt-3 mx-2 pt-2 border-t border-gray-800 flex items-center justify-between">
-              <Link to={"https://github.com/favour5678/FAN"}>
+              <a href="https://github.com/favour5678/FAN">
                 <FaGithub className="text-lg" />
-              </Link>
-              <Link to={"https://favour5678.github.io/FAN/"}>
+              </a>
+              <a href="https://favour5678.github.io/FAN/">
                 <FaLink className="text-lg" />
-              </Link>
+              </a>
             </span>
           </div>
           <div className="works-container" data-aos="fade-down">
@@ -137,12 +136,12 @@ export const Works = () => {
               </span>
             </div>
             <span className="mt-3 mx-2 pt-2 border-t border-gray-800 flex items-center justify-between">
-              <Link to={"https://github.com/favour5678/BlogApp"}>
+              <a href="https://github.com/favour5678/BlogApp">
                 <FaGithub className="text-lg" />
-              </Link>
-              <Link to={"https://fablog-app.netlify.app/"}>
+              </a>
+              <a href="https://fablog-app.netlify.app/">
                 <FaLink className="text-lg" />
-              </Link>
+              </a>
             </span>
           </div>
           <div className="works-container" data-aos="fade-up">
@@ -164,12 +163,12 @@ export const Works = () => {
               </span>
             </div>
             <span className="mt-3 mx-2 pt-2 border-t border-gray-800 flex items-center justify-between">
-              <Link to={"https://github.com/favour5678/QuizApp"}>
+              <a href="https://github.com/favour5678/QuizApp">
                 <FaGithub className="text-lg" />
-              </Link>
-              <Link to={"https://faquizapp.netlify.app/"}>
+              </a>
+              <a href="https://faquizapp.netlify.app/">
                 <FaLink className="text-lg" />
-              </Link>
+              </a>
             </span>
           </div>
           <div className="works-container" data-aos="fade-down">
@@ -191,12 +190,12 @@ export const Works = () => {
               </span>
             </div>
             <span className="mt-3 mx-2 pt-2 border-t border-gray-800 flex items-center justify-between">
-              <Link to={"https://github.com/favour5678/WeatherApp"}>
+              <a href="https://github.com/favour5678/WeatherApp">
                 <FaGithub className="text-lg" />
-              </Link>
-              <Link to={"https://faweather-app.netlify.app/"}>
+              </a>
+              <a href="https://faweather-app.netlify.app/">
                 <FaLink className="text-lg" />
-              </Link>
+              </a>
             </span>
           </div>
         </div>
