@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 .socials-card {
-    @apply py-3 mt-6 bg-blue-100 text-[#333333] flex flex-col items-center rounded-md cursor-pointer space-y-1 shadow-md shadow-gray-300;
+    @apply py-3 mt-6 bg-blue-100 text-[#0C0C0C] flex flex-col items-center rounded-md cursor-pointer space-y-1 shadow shadow-gray-100;
 }
 
 .socials-icon {
