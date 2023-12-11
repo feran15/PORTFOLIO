@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 .socials-card {
-    @apply py-3 mt-6 bg-blue-100 text-[#0C0C0C] flex flex-col items-center rounded-md cursor-pointer space-y-1 shadow shadow-gray-100;
+    @apply py-3 mt-6 bg-blue-100 text-[#0C0C0C] flex flex-col items-center rounded-md cursor-pointer space-y-1 shadow-md shadow-gray-200;
 }
 
 .socials-icon {
@@ -13,7 +13,7 @@
 }
 
 .skills-container {
-    @apply bg-blue-100 rounded-md flex flex-col justify-center items-center p-4 shadow-md shadow-gray-300 cursor-pointer h-[136px];
+    @apply bg-blue-100 rounded-md flex flex-col justify-center items-center p-4 shadow-md shadow-gray-100 cursor-pointer h-[136px];
 }
 
 .skills-text {
