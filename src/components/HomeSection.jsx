@@ -19,7 +19,7 @@ export const HomeSection = () => {
       <div className="flex-col space-y-10 md:flex md:flex-row  justify-around items-center">
         <div className="text-center md:text-right">
           <p className="text-base md:text-lg">Hi, I am </p>
-          <h2 className="text-3xl md:text-5xl text-[#333333] font-semibold">
+          <h2 className="text-3xl md:text-5xl font-semibold">
             Favour Oshoaro
           </h2>
           <TypeAnimation

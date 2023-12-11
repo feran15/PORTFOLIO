@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Logo from "../assets/logo.png";
+import Logo from "../assets/logoWhite.png";
 import { FaBarsStaggered } from "react-icons/fa6";
 import { TiTimesOutline } from "react-icons/ti";
 import { HashLink as Link } from "react-router-hash-link";
@@ -20,27 +20,27 @@ export const Navbar = () => {
       </div>
       <ul className="hidden md:flex space-x-8 font-semibold">
         <li>
-          <Link smooth to="#home">
+          <Link smooth to="#home" className="hover:text-[#819096]">
             Home
           </Link>
         </li>
         <li>
-          <Link smooth to={"#skills"}>
+          <Link smooth to={"#skills"} className="hover:text-[#819096]">
             Skills
           </Link>
         </li>
         <li>
-          <Link smooth to={"#works"}>
+          <Link smooth to={"#works"} className="hover:text-[#819096]">
             Works
           </Link>
         </li>
         <li>
-          <Link smooth to={"#about"}>
+          <Link smooth to={"#about"} className="hover:text-[#819096]">
             About
           </Link>
         </li>
         <li>
-          <Link smooth to={"#contact"}>
+          <Link smooth to={"#contact"} className="hover:text-[#819096]">
             Contact me 🤙
           </Link>
         </li>
