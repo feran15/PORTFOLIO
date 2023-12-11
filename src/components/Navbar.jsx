@@ -15,7 +15,7 @@ export const Navbar = () => {
       {/* Desktop Section */}
       <div>
         <Link smooth to={"#home"}>
-          <img src={Logo} alt="logo" className="h-10 object-contain" />
+          <img src={Logo} alt="logo" className="h-8 md:h-10 object-contain" />
         </Link>
       </div>
       <ul className="hidden md:flex space-x-8 font-semibold">
@@ -59,11 +59,31 @@ export const Navbar = () => {
           nav ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-full"
         } transition opacity-90 transform duration-700 absolute top-0 left-0 w-full h-screen bg-[#4682B4] flex flex-col items-center justify-center space-y-10 text-lg sm:text-xl text-white`}
       >
-        <li>Home</li>
-        <li>Works</li>
-        <li>Skills</li>
-        <li>About</li>
-        <li>Contact me 🤙</li>
+          <li>
+          <Link smooth to="#home">
+            Home
+          </Link>
+        </li>
+        <li>
+          <Link smooth to={"#skills"}>
+            Skills
+          </Link>
+        </li>
+        <li>
+          <Link smooth to={"#works"}>
+            Works
+          </Link>
+        </li>
+        <li>
+          <Link smooth to={"#about"}>
+            About
+          </Link>
+        </li>
+        <li>
+          <Link smooth to={"#contact"}>
+            Contact me 🤙
+          </Link>
+        </li>
       </ul>
     </nav>
   );

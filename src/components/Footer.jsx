@@ -23,7 +23,7 @@ export const Footer = () => {
             <BsWhatsapp className="socials-icon" />
           </a>
         </span>
-        <div className="font-semibold">&copy; F.A 2023</div>
+        <div className="font-semibold text-sm md:text-base">&copy; F.A 2023</div>
       </div>
     </footer>
   );
