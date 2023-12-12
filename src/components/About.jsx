@@ -12,7 +12,7 @@ export const About = () => {
   return (
     <section className="pt-16" id="about">
       <div>
-        <h1 className="inline border-b-2 border-gray-800 font-bold text-lg md:text-xl mt-3 ml-20" data-aos="fade-up">
+        <h1 className="inline border-b-2 border-[#C8CACD] font-bold text-lg md:text-xl mt-3 ml-20" data-aos="fade-up">
           About
         </h1>
         <div className="flex-col justify-center md:flex md:flex-row items-center md:justify-between mx-20 py-6" data-aos="zoom-in">
