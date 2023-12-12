@@ -20,7 +20,7 @@ export const Works = () => {
       <div>
         <div className="flex flex-col justify-center items-center">
           <h1
-            className="border-2 border-gray-800 py-2 px-5 font-bold text-lg md:text-xl"
+            className="border-2 border-[#C8CACD] py-2 px-5 font-bold text-lg md:text-xl"
             data-aos="fade-up"
           >
             Works
@@ -29,8 +29,8 @@ export const Works = () => {
             These are some of my works👇🏻
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 md:gap-x-14 gap-y-10 mx-20 md:mx-16 py-10">
-          <div className="works-container" data-aos="fade-up">
+        <div className="grid grid-cols-1 md:grid-cols-3 md:gap-x-14 gap-y-10 mx-16 py-10">
+          <div className="works-container text-[#0C0C0C]" data-aos="fade-up">
             <img
               src={Foodspace}
               alt="foodspace-img"
@@ -38,7 +38,7 @@ export const Works = () => {
             />
             <div>
               <h1 className="text-base md:text-lg font-semibold mb-1 px-2">FOOD-SPACE</h1>
-              <p className="text-gray-800 mb-3 px-2 text-sm md:text-base">
+              <p className="mb-3 px-2 text-sm md:text-base">
                 An e-commerce website offering a variety of foods, drinks, and
                 snacks, where users can explore different categories, each
                 displaying products with their corresponding prices. Users have

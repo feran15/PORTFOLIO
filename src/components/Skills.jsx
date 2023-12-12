@@ -24,7 +24,7 @@ export const Skills = () => {
         </h1>
         <p className="text-base md:text-lg mt-2">Technologies I currently work with:</p>
       </div>
-      <div className="grid grid-cols-3 gap-y-6 gap-x-10 py-8 mx-20">
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-y-6 gap-x-10 py-8 mx-20">
         <div className="skills-container" data-aos="flip-right">
           <img src={Html} alt="html-img" className="h-12 md:h-20" />
           <p className="skills-text">HTML</p>
