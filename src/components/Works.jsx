@@ -29,7 +29,7 @@ export const Works = () => {
             These are some of my works👇🏻
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 md:gap-x-14 gap-y-10 mx-16 py-10 text-[#0C0C0C]">
+        <div className="grid grid-cols-1 md:grid-cols-3 md:gap-x-14 gap-y-10 mx-14 md:mx-16 py-10 text-[#0C0C0C]">
           <div className="works-container " data-aos="fade-up">
             <img
               src={Foodspace}

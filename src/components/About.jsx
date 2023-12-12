@@ -13,13 +13,13 @@ export const About = () => {
     <section className="pt-16" id="about">
       <div>
         <h1
-          className="inline border-b-2 border-[#C8CACD] font-bold text-lg md:text-xl mt-3 ml-20"
+          className="inline border-b-2 border-[#C8CACD] font-bold text-lg md:text-xl mt-3 ml-14 md:ml-20"
           data-aos="fade-up"
         >
           About
         </h1>
         <div
-          className="flex-col md:flex md:flex-row items-center md:justify-between mx-20 py-6"
+          className="flex-col md:flex md:flex-row items-center md:justify-between mx-14 md:mx-20 py-6"
           data-aos="zoom-in"
         >
           <p className="w-full md:w-[50%]" data-aos="zoom-in-right">
