@@ -26,7 +26,7 @@ export const About = () => {
             working, and collaborating on exciting projects.
           </p>
           <motion.button whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} data-aos="zoom-in-left">
-            <a href='/My Resume.pdf' download className="flex items-center space-x-2 bg-[#3366CC] text-white py-6 px-10 h-10 rounded shadow-md">
+            <a href='/My Resume.pdf' download className="flex items-center space-x-2 bg-[#3366CC] ease-in-out duration-700 hover:bg-[#819096] text-white py-6 px-10 h-10 rounded shadow-md">
               <p>View Resume </p>
               <ImDownload2 className="animate-bounce" />
             </a>
