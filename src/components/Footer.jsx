@@ -9,7 +9,7 @@ export const Footer = () => {
   return (
     <footer className="mt-24">
       <div className="flex flex-col items-center justify-center py-4 space-y-4">
-        <span className="flex space-x-8 md:space-x-5">
+        <span className="flex space-x-8 md:space-x-6">
           <a href="https://github.com/favour5678" target="_blank">
             <SiGithub className="socials-icon" />
           </a>

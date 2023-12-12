@@ -29,5 +29,5 @@
 }
 
 .form-input {
-    @apply bg-white border border-blue-200 rounded p-1 md:p-2 outline-none;
+    @apply bg-white border text-[#0C0C0C] rounded p-1 md:p-2 outline-none;
 }
