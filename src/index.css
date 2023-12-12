@@ -21,7 +21,7 @@
 }
 
 .works-container {
-    @apply bg-blue-100 shadow-md flex flex-col justify-between rounded-md pb-4 cursor-pointer border-b border-t border-gray-800;
+    @apply bg-blue-100 shadow shadow-[#C8CACD] flex flex-col justify-between rounded-md pb-4 cursor-pointer;
 }
 
 .works-pill {
