@@ -15,8 +15,8 @@ export const About = () => {
         <h1 className="inline border-b-2 border-[#C8CACD] font-bold text-lg md:text-xl mt-3 ml-20" data-aos="fade-up">
           About
         </h1>
-        <div className="flex-col justify-center md:flex md:flex-row items-center md:justify-between mx-20 py-6" data-aos="zoom-in">
-          <p className="w-[50%]" data-aos="zoom-in-right">
+        <div className="flex-col md:flex md:flex-row items-center md:justify-between mx-20 py-6" data-aos="zoom-in">
+          <p className="w-full md:w-[50%]" data-aos="zoom-in-right">
             As a full-stack developer, I seamlessly connect front-end and
             back-end technologies to craft high-performance web applications. My
             expertise lies in creating engaging user interfaces, optimizing
@@ -26,7 +26,7 @@ export const About = () => {
             working, and collaborating on exciting projects.
           </p>
           <motion.button whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} data-aos="zoom-in-left">
-            <a href='/My Resume.pdf' download className="flex items-center space-x-2 bg-[#3366CC] ease-in-out duration-700 hover:bg-[#819096] text-white py-6 px-10 h-10 rounded shadow-md">
+            <a href='/My Resume.pdf' download className="flex mt-5 md:mt-0 text-base items-center space-x-2 bg-[#3366CC] ease-in-out duration-700 hover:bg-[#819096] text-white py-6 px-4 md:px-10 h-10 rounded shadow-md">
               <p>View Resume </p>
               <ImDownload2 className="animate-bounce" />
             </a>

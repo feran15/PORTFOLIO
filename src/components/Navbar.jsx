@@ -47,19 +47,20 @@ export const Navbar = () => {
       </ul>
 
       {/* Mobile Section */}
-      <div className="md:hidden z-10" onClick={handleClick}>
+      <div className="md:hidden z-50" onClick={handleClick}>
         {!nav ? (
           <FaBarsStaggered className="text-[22px]" />
         ) : (
           <TiTimesOutline className="text-[24px]" />
         )}
       </div>
-      <ul
-        className={`${
-          nav ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-full"
-        } transition opacity-90 transform duration-700 absolute top-0 left-0 w-full h-screen bg-[#4682B4] flex flex-col items-center justify-center space-y-10 text-lg sm:text-xl text-white`}
-      >
-          <li>
+
+        <ul
+  className={`absolute top-0 left-0 w-full h-screen bg-gray-800 flex flex-col items-center justify-center space-y-10 text-lg sm:text-xl opacity-90 z-10 text-white transform duration-700 ${
+    nav ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-full"
+  }`}
+>
+        <li>
           <Link smooth to="#home" className="hover:text-[#819096]">
             Home
           </Link>
@@ -80,7 +81,7 @@ export const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link smooth to={"#contact"} className="hover:text-[#819096]">
+          <Link smooth to={"#contact"} >
             Contact me 🤙
           </Link>
         </li>
