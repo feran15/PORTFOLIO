@@ -80,7 +80,7 @@ export const Works = () => {
                 <p className="works-pill">Robo Music Api</p>
               </span>
             </div>
-            <span className="mt-3 mx-2 pt-2 border-t border-gray-800 flex items-center justify-between">
+            <span className="mt-3 mx-2 pt-2 border-t border-[#0C0C0C] flex items-center justify-between">
               <a href="https://github.com/favour5678/MusicApp">
                 <FaGithub className="text-lg" />
               </a>
@@ -106,7 +106,7 @@ export const Works = () => {
                 <p className="works-pill">Animation</p>
               </span>
             </div>
-            <span className="mt-3 mx-2 pt-2 border-t border-gray-800 flex items-center justify-between">
+            <span className="mt-3 mx-2 pt-2 border-t border-[#0C0C0C] flex items-center justify-between">
               <a href="https://github.com/favour5678/FAN">
                 <FaGithub className="text-lg" />
               </a>
@@ -135,7 +135,7 @@ export const Works = () => {
                 <p className="works-pill">Mongo DB</p>
               </span>
             </div>
-            <span className="mt-3 mx-2 pt-2 border-t border-gray-800 flex items-center justify-between">
+            <span className="mt-3 mx-2 pt-2 border-t border-[#0C0C0C] flex items-center justify-between">
               <a href="https://github.com/favour5678/BlogApp">
                 <FaGithub className="text-lg" />
               </a>
@@ -162,7 +162,7 @@ export const Works = () => {
                 <p className="works-pill">TailwindCSS</p>
               </span>
             </div>
-            <span className="mt-3 mx-2 pt-2 border-t border-gray-800 flex items-center justify-between">
+            <span className="mt-3 mx-2 pt-2 border-t border-[#0C0C0C] flex items-center justify-between">
               <a href="https://github.com/favour5678/QuizApp">
                 <FaGithub className="text-lg" />
               </a>
@@ -189,7 +189,7 @@ export const Works = () => {
                 <p className="works-pill">AccuWeather Api</p>
               </span>
             </div>
-            <span className="mt-3 mx-2 pt-2 border-t border-gray-800 flex items-center justify-between">
+            <span className="mt-3 mx-2 pt-2 border-t border-[#0C0C0C] flex items-center justify-between">
               <a href="https://github.com/favour5678/WeatherApp">
                 <FaGithub className="text-lg" />
               </a>
