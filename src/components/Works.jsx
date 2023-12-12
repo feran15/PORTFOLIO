@@ -29,8 +29,8 @@ export const Works = () => {
             These are some of my works👇🏻
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 md:gap-x-14 gap-y-10 mx-16 py-10">
-          <div className="works-container text-[#0C0C0C]" data-aos="fade-up">
+        <div className="grid grid-cols-1 md:grid-cols-3 md:gap-x-14 gap-y-10 mx-16 py-10 text-[#0C0C0C]">
+          <div className="works-container " data-aos="fade-up">
             <img
               src={Foodspace}
               alt="foodspace-img"
@@ -50,7 +50,7 @@ export const Works = () => {
                 <p className="works-pill">TailwindCSS</p>
               </span>
             </div>
-            <span className="mt-3 mx-2 pt-2 border-t border-gray-800 flex items-center justify-between">
+            <span className="mt-3 mx-2 pt-2 border-t border-[#0C0C0C] flex items-center justify-between">
               <a href="https://github.com/favour5678/FoodSpace">
                 <FaGithub className="text-lg" />
               </a>
