@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { SiGithub } from "react-icons/si";
 import { FaXTwitter } from "react-icons/fa6";
 import { MdOutlineMailOutline } from "react-icons/md";
-import { BsWhatsapp } from "react-icons/bs";
+import { FiLinkedin } from "react-icons/fi";
 import "aos/dist/aos.css";
 import Aos from "aos";
 
@@ -27,9 +27,9 @@ export const SocialsSection = () => {
           <MdOutlineMailOutline className="socials-icon"/>
           <p>Email</p>
         </a>
-        <a href='https://wa.me/2348080994170' target="_blank" className="socials-card" data-aos="zoom-in">
-          <BsWhatsapp className="socials-icon"/>
-          <p>Whatsapp</p>
+        <a href='https://www.linkedin.com/in/favour-oshoaro?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BIxyotvatQC6iO8tSpV9s9g%3D%3D' target="_blank" className="socials-card" data-aos="zoom-in">
+          <FiLinkedin className="socials-icon"/>
+          <p>Linkedin</p>
         </a>
       </div>
     </section>
