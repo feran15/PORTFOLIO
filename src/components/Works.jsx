@@ -54,7 +54,7 @@ export const Works = () => {
               <a href="https://github.com/favour5678/FoodSpace">
                 <FaGithub className="text-lg" />
               </a>
-              <a href="https://foodspacee.netlify.app/">
+              <a href="https://food-space-navy.vercel.app/">
                 <FaLink className="text-lg" />
               </a>
             </span>
