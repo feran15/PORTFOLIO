@@ -4,6 +4,7 @@ import Fan from "../assets/fan.png";
 import Blogapp from "../assets/blogapp.png";
 import Quizapp from "../assets/quizapp.png";
 import Weatherapp from "../assets/weatherapp.png";
+import TaskManagementApp from "../assets/tma.png";
 import Musicapp from "../assets/musicapp.png";
 import { FaGithub } from "react-icons/fa6";
 import { FaLink } from "react-icons/fa6";
@@ -194,6 +195,33 @@ export const Works = () => {
                 <FaGithub className="text-lg" />
               </a>
               <a href="https://faweather-app.netlify.app/">
+                <FaLink className="text-lg" />
+              </a>
+            </span>
+          </div>
+          <div className="works-container" data-aos="fade-down">
+            <img
+              src={TaskManagementApp}
+              alt="weatherapp-img"
+              className="mb-4 rounded-md rounded-b-none w-full h-52 object-center object-cover"
+            />
+            <div>
+              <h1 className="text-base md:text-lg font-semibold mb-1 px-2">TASK APP</h1>
+              <p className="text-gray-800 mb-3 px-2 text-sm md:text-base">
+                This is a web app which allows users to create, edit and delete tasks.
+              </p>
+              <span className="flex flex-wrap gap-2 px-2">
+                <p className="works-pill">React.Js</p>
+                <p className="works-pill">TailwindCSS</p>
+                <p className="works-pill">EXPRESS.JS</p>
+                <p className="works-pill">MONGO DB</p>
+              </span>
+            </div>
+            <span className="mt-3 mx-2 pt-2 border-t border-[#0C0C0C] flex items-center justify-between">
+              <a href="https://github.com/favour5678/TaskManagementApp-Client">
+                <FaGithub className="text-lg" />
+              </a>
+              <a href="https://task-m-a.vercel.app/">
                 <FaLink className="text-lg" />
               </a>
             </span>
