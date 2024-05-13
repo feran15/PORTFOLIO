@@ -8,6 +8,7 @@ import NextJs from "../assets/nextjs.png";
 import NodeJs from "../assets/node.png";
 import ReactJs from "../assets/react.png";
 import Tailwind from "../assets/tailwind.png";
+import Typescript from "../assets/typescript.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -60,6 +61,10 @@ export const Skills = () => {
         <div className="skills-container" data-aos="zoom-in">
           <img src={ReactJs} alt="reactjs-img" className="h-12 md:h-20 animate-spin" />
           <p className="skills-text">REACT JS</p>
+        </div>
+        <div className="skills-container" data-aos="zoom-in">
+          <img src={Typescript} alt="reactjs-img" className="h-12 md:h-20" />
+          <p className="skills-text">TYPESCRIPT</p>
         </div>
       </div>
     </section>
