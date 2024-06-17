@@ -53,7 +53,7 @@ export const Works = () => {
               </span>
             </div>
             <span className="mt-3 mx-2 pt-2 border-t border-[#0C0C0C] flex items-center justify-between">
-              <Link to="https://github.com/favour5678/FoodSpace">
+              <Link to="https://github.com/favourAyomikun/FoodSpace">
                 <FaGithub className="text-lg" />
               </Link>
               <Link to="https://food-space-iota.vercel.app/">
@@ -83,7 +83,7 @@ export const Works = () => {
               </span>
             </div>
             <span className="mt-3 mx-2 pt-2 border-t border-[#0C0C0C] flex items-center justify-between">
-              <Link to="https://github.com/favour5678/MusicApp">
+              <Link to="https://github.com/favourAyomikun/MusicApp">
                 <FaGithub className="text-lg" />
               </Link>
               <Link to="https://famusicapp.netlify.app/">
@@ -109,10 +109,10 @@ export const Works = () => {
               </span>
             </div>
             <span className="mt-3 mx-2 pt-2 border-t border-[#0C0C0C] flex items-center justify-between">
-              <Link to="https://github.com/favour5678/FAN">
+              <Link to="https://github.com/favourAyomikun/FAN">
                 <FaGithub className="text-lg" />
               </Link>
-              <Link to="https://favour5678.github.io/FAN/">
+              <Link to="https://favourAyomikun.github.io/FAN/">
                 <FaLink className="text-lg" />
               </Link>
             </span>
@@ -138,7 +138,7 @@ export const Works = () => {
               </span>
             </div>
             <span className="mt-3 mx-2 pt-2 border-t border-[#0C0C0C] flex items-center justify-between">
-              <Link to="https://github.com/favour5678/BlogApp">
+              <Link to="https://github.com/favourAyomikun/BlogApp">
                 <FaGithub className="text-lg" />
               </Link>
               <Link to="https://fablog-app.netlify.app/">
@@ -165,7 +165,7 @@ export const Works = () => {
               </span>
             </div>
             <span className="mt-3 mx-2 pt-2 border-t border-[#0C0C0C] flex items-center justify-between">
-              <Link to="https://github.com/favour5678/QuizApp">
+              <Link to="https://github.com/favourAyomikun/QuizApp">
                 <FaGithub className="text-lg" />
               </Link>
               <Link to="https://faquizapp.netlify.app/">
@@ -192,7 +192,7 @@ export const Works = () => {
               </span>
             </div>
             <span className="mt-3 mx-2 pt-2 border-t border-[#0C0C0C] flex items-center justify-between">
-              <Link to="https://github.com/favour5678/WeatherApp">
+              <Link to="https://github.com/favourAyomikun/WeatherApp">
                 <FaGithub className="text-lg" />
               </Link>
               <Link to="https://faweather-app.netlify.app/">
@@ -219,7 +219,7 @@ export const Works = () => {
               </span>
             </div>
             <span className="mt-3 mx-2 pt-2 border-t border-[#0C0C0C] flex items-center justify-between">
-              <Link to="https://github.com/favour5678/TaskManagementApp-Client">
+              <Link to="https://github.com/favourAyomikun/TaskManagementApp-Client">
                 <FaGithub className="text-lg" />
               </Link>
               <Link to="https://task-m-a.vercel.app/">
