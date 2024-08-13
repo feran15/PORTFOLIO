@@ -37,7 +37,7 @@ export const About = () => {
             data-aos="zoom-in-left"
           >
             <a
-              href="/Favour Oshoaro.pdf"
+              href="/Favour_Oshoaro.pdf"
               download
               className="flex mt-5 md:mt-0 text-base items-center space-x-2 bg-[#3366CC] ease-in-out duration-700 hover:bg-[#819096] text-white py-6 px-4 md:px-10 h-10 rounded shadow-md"
             >
