@@ -12,7 +12,7 @@ import { ScrollToTop } from "./components/ScrollToTop";
 function App() {
   return (
     <BrowserRouter>
-      <main className="bg-[#161F26] text-[#C8CACD] h-full w-full font-body" >
+      <main className="bg-black text-[#C8CACD] h-full w-full font-body" >
         <Navbar />
         <HomeSection />
         <SocialsSection />
