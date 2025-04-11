@@ -20,7 +20,7 @@ export const HomeSection = () => {
         <div className="text-center md:text-right">
           <p className="text-base md:text-lg">Hi, I am </p>
           <h2 className="text-3xl md:text-5xl font-semibold">
-            Favour Oshoaro
+           PAUL ABODUNDE
           </h2>
           <TypeAnimation
             sequence={["FullStack Developer", 1000, "", 1000]}

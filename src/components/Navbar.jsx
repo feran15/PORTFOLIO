@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Logo from "../assets/logoWhite.png";
+ import Logo from "/Logo.png";
 import { FaBarsStaggered } from "react-icons/fa6";
 import { TiTimesOutline } from "react-icons/ti";
 import { HashLink as Link } from "react-router-hash-link";
@@ -15,7 +15,7 @@ export const Navbar = () => {
       {/* Desktop Section */}
       <div>
         <Link smooth to={"#home"}>
-          <img src={Logo} alt="logo" className="h-8 md:h-10 object-contain" />
+          <img src={Logo} alt="logo" className="h-8 md:h-16 object-contain" />
         </Link>
       </div>
       <ul className="hidden md:flex space-x-8 font-semibold">

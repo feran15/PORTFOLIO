@@ -15,19 +15,19 @@ export const SocialsSection = () => {
     <section className="mt-20 py-4" data-aos='fade-up'>
       <h2 className="text-base md:text-lg ml-14 md:ml-20 font-semibold">Connect with me on:</h2>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-x-10 md:gap-x-20 gap-y-2 md:gap-y-0 px-14 md:px-20">
-        <a href='https://github.com/favourAyomikun' target="_blank" className="socials-card" data-aos="fade-right">
+        <a href='https://github.com/feran15' target="_blank" className="socials-card" data-aos="fade-right">
           <SiGithub className="socials-icon" />
           <p>GitHub</p>
         </a>
-        <a href='https://x.com/favour_ayomikun?t=UFbQ8TjcitAB-1EcnIzN5g&s=09' target="_blank" className="socials-card" data-aos="fade-right">
+        {/* <a href='https://x.com/favour_ayomikun?t=UFbQ8TjcitAB-1EcnIzN5g&s=09' target="_blank" className="socials-card" data-aos="fade-right">
           <FaXTwitter className="socials-icon"/>
           <p>Twitter</p>
         </a>
         <a href='mailto:oshoarofavour@gmail.com' target="_blank" className="socials-card" data-aos="zoom-in">
           <MdOutlineMailOutline className="socials-icon"/>
           <p>Email</p>
-        </a>
-        <a href='https://www.linkedin.com/in/favour-oshoaro?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BIxyotvatQC6iO8tSpV9s9g%3D%3D' target="_blank" className="socials-card" data-aos="zoom-in">
+        </a> */}
+        <a href='https://www.linkedin.com/in/paul-abodunde-3a27a52b5/' target="_blank" className="socials-card" data-aos="zoom-in">
           <FiLinkedin className="socials-icon"/>
           <p>Linkedin</p>
         </a>
