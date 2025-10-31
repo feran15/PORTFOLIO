@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import Ace from '/Ace.png'
 import Currency from '/Currenncy.png'
+import Dashbaord from '/Dashboard.png'
 import { FaGithub } from "react-icons/fa6";
 import { FaLink } from "react-icons/fa6";
 import Aos from "aos";
@@ -82,6 +83,37 @@ export const Works = () => {
               </Link>
             </span>
           </div>
+
+            <div className="works-container " data-aos="fade-up">
+            <img
+              src={Dashbaord}
+              alt="foodspace-img"
+              className="mb-4 rounded-md rounded-b-none w-full h-52 object-center object-cover"
+            />
+            <div>
+              <h1 className="text-base md:text-lg font-semibold mb-1 px-2">
+                BANKING SYSTEM 
+              </h1>
+              <p className="mb-3 px-2 text-sm md:text-base">
+              Your all-in-one smart banking app — send money, track spending, and get AI insights that help you take control of your finances anytime, anywhere.
+              </p>
+              <span className="flex flex-wrap gap-2 px-2">
+                <p className="works-pill">React.Js</p>
+                <p className="works-pill">TailwindCSS</p>
+                <p className="works-pill">Express Js</p>
+                <p className="works-pill">MONGO DB</p>
+              </span>
+            </div>
+            <span className="mt-3 mx-2 pt-2 border-t border-[#0C0C0C] flex items-center justify-between">
+              <Link to="https://github.com/feran15/React-fintech">
+                <FaGithub className="text-lg" />
+              </Link>
+              <Link to="https://react-fintech-zeta.vercel.app/">
+                <FaLink className="text-lg" />
+              </Link>
+            </span>
+          </div>
+          
         </div>
       </div>
     </section>
